@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09300aae-1386-4bfe-99d9-e017b6ef0b84"
+      }
+    },
+    "owner": "msbala57"
   }
 }
