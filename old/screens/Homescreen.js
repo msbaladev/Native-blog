@@ -100,6 +100,9 @@ export default function Homescreen() {
           estimatedItemSize={data.length}
         />
       </View>
+
+
+
     </SafeAreaView>
   );
 }

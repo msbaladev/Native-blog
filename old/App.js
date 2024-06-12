@@ -14,21 +14,23 @@ export default function App() {
     >
       <SignedIn>
         <NavigationContainer>
-          <Navigation />
+          {/* <Navigation /> */}
+
+          <Text>hellooo</Text>
         </NavigationContainer>
       </SignedIn>
       <SignedOut>
       <NavigationContainer>
-          <Navigation />
+      <Text>hellooo</Text>
         </NavigationContainer>
       </SignedOut>
     </ClerkProvider>
   );
 }
 
-const style = StyleSheet.create({
-  container: {
-    backgroundColor: "red",
-    flex: 1,
-  },
-});
+// const style = StyleSheet.create({
+//   container: {
+//     backgroundColor: "red",
+//     flex: 1,
+//   },
+// });
